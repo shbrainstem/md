@@ -7,7 +7,7 @@ main:
     url: "#"
     sub_menu:
       - title: "RAG"
-        url: "/AI/AI_RAG/"
+        url: "/AI/AI_RAG"
       - title: "Books"
         url: "/AI/AI_RAG.html"
       - title: "Tutorials"
