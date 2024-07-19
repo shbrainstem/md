@@ -7,7 +7,7 @@ main:
       - title: "00_Ollama"
         url: "/md/AI/AI_Ollama"
       - title: "01_AnyThingLLM"
-        url: "/md/AI/AI_AnythinLLM"
+        url: "/md/AI/AI_AnythingLLM"
       - title: "02_OpenWebUi"
         url: "/md/AI/AI_openWebUI" 
       - title: "03_RAG"
