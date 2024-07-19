@@ -16,7 +16,7 @@ main:
         url: "/resources/books/" 
   - title: "Python"
     url: "#"
-      sub_menu:
+    sub_menu:
       - title: "Tutorials"
         url: "/resources/tutorials/"
       - title: "Books"
