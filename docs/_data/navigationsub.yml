@@ -7,13 +7,13 @@ main:
     url: "#"
     sub_menu:
       - title: "RAG"
-        url: "/AI/AI_RAG"
+        url: "/md/AI/AI_RAG"
       - title: "Books"
-        url: "/AI/AI_RAG.html"
+        url: "/md/AI/AI_RAG.html"
       - title: "Tutorials"
-        url: "/AI/AI_RAG.md"
+        url: "/md/AI/AI_RAG.md"
       - title: "Books"
-        url: "/resources/books/" 
+        url: "/md/resources/books/" 
   - title: "Python"
     url: "#"
     sub_menu:
