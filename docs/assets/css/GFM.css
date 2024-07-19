@@ -1,0 +1,260 @@
+/* 基本重置 */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* 页面主体 */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #333;
+  background-color: #f4f4f4;
+}
+
+/* 容器 */
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+/* 头部 */
+header {
+  background: #50bfa0;
+  color: #ffffff;
+  padding-top: 30px;
+  min-height: 70px;
+  border-bottom: #e8491d 3px solid;
+}
+
+/* 侧边栏 */
+.sidebar {
+  float: left;
+  width: 20%;
+  padding: 10px;
+  background: #f4f4f4;
+}
+
+.sidebar nav ul {
+  list-style: none;
+}
+
+.sidebar nav li {
+  padding: 10px 0;
+}
+
+.sidebar nav a {
+  text-decoration: none;
+  color: #333;
+}
+
+.sidebar nav a:hover {
+  color: #50bfa0;
+}
+
+/* 内容区域 */
+.content {
+  min-height: 400px;
+  float: right;
+  width: 80%;
+  padding: 10px;
+  background: #ffffff;
+}
+
+/* GitHub Flavored Markdown (GFM) Style */
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+  font-size: 16px;
+  line-height: 1.5;
+  word-wrap: break-word;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 1em;
+  margin-bottom: 0.5em;
+  font-weight: 600;
+  line-height: 1.25;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+h2 {
+  font-size: 1.5em;
+}
+
+h3 {
+  font-size: 1.25em;
+}
+
+h4 {
+  font-size: 1em;
+}
+
+h5 {
+  font-size: 0.875em;
+}
+
+h6 {
+  font-size: 0.85em;
+  color: #6a737d;
+}
+
+p,
+blockquote,
+ul,
+ol,
+dl,
+table,
+pre {
+  margin-top: 0;
+  margin-bottom: 16px;
+}
+
+hr {
+  height: 0;
+  margin: 15px 0;
+  overflow: hidden;
+  background: transparent;
+  border: 0;
+  border-bottom: 1px solid #dfe2e5;
+}
+
+hr:before {
+  display: table;
+  content: "";
+}
+
+blockquote {
+  padding: 0 1em;
+  color: #6a737d;
+  border-left: 0.25em solid #dfe2e5;
+}
+
+blockquote > :last-child {
+  margin-bottom: 0;
+}
+
+ul,
+ol {
+  padding-left: 2em;
+}
+
+li > p {
+  margin-top: 0.5em;
+}
+
+li + li {
+  margin-top: 0.5em;
+}
+
+dl {
+  padding: 0;
+}
+
+dl dt {
+  padding: 0;
+  margin-top: 16px;
+  font-size: 1em;
+  font-style: italic;
+  font-weight: 600;
+}
+
+dl dd {
+  padding: 0 16px;
+  margin-bottom: 16px;
+}
+
+table {
+  display: block;
+  width: 100%;
+  overflow: auto;
+}
+
+table th {
+  font-weight: 600;
+}
+
+table th,
+table td {
+  padding: 6px 13px;
+  border: 1px solid #dfe2e5;
+}
+
+table tr {
+  background-color: #fff;
+  border-top: 1px solid #c6cbd1;
+}
+
+table tr:nth-child(2n) {
+  background-color: #f6f8fa;
+}
+
+code,
+tt {
+  font-size: 0.85em;
+  padding: 0.2em 0.4em;
+  margin: 0;
+  font-family: SFMono-Regular, Consolas, "Liberation Mono", Menlo, Courier, monospace;
+  background-color: rgba(27, 31, 35, 0.05);
+  border-radius: 3px;
+}
+
+pre {
+  word-break: normal;
+  word-wrap: normal;
+  white-space: pre;
+  padding: 16px;
+  overflow: auto;
+  font-size: 0.85em;
+  line-height: 1.45;
+  background-color: #f6f8fa;
+  border-radius: 3px;
+}
+
+pre code {
+  font-size: inherit;
+  color: inherit;
+  word-break: normal;
+  padding: 0;
+  background-color: transparent;
+  border: none;
+}
+
+kbd {
+  display: inline-block;
+  padding: 0.1em 0.6em;
+  font: 11px Consolas, "Liberation Mono", Menlo, Courier, monospace;
+  line-height: 10px;
+  color: #444d56;
+  vertical-align: middle;
+  background-color: #fafbfc;
+  border: solid 1px #c6cbd1;
+  border-bottom-color: #959da6;
+  border-radius: 3px;
+  box-shadow: inset 0 -1px 0 #959da6;
+}
+
+/* Additional GFM specific styles can be added here */
+
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-menu.show {
+  display: block;
+}
