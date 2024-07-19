@@ -1,0 +1,12 @@
+plugins:
+  - jekyll-seo-tag
+  - jekyll-toc
+baseurl: "/md"
+url: "https://xly1981.github.io"
+
+data_dir: _data
+
+title: SH_ROBOT的网站
+description: FROM IT TO AI.
+twitter:
+  username: Sh_robot
