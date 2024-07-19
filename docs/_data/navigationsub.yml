@@ -1,0 +1,16 @@
+main:
+  - title: "Home"
+    url: "/"
+  - title: "About"
+    url: "/about/"
+  - title: "Resources"
+    url: "#"
+    sub_menu:
+      - title: "Tutorials"
+        url: "/resources/tutorials/"
+      - title: "Books"
+        url: "/resources/books/"
+  - title: "Blog"
+    url: "/blog/"
+  - title: "Contact"
+    url: "/contact/"
