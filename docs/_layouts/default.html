@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
+  <link rel="stylesheet" type="text/css" href="{{ "https://xly1981.github.io/md/assets/css/GFM.css" | relative_url }}">
+</head>
+<body>
+
+  <div class="sidebar">
+    <!-- 导航菜单 -->
+    {% include sidebarsub.html %}
+  </div>
+
+  <div class="content">
+    <!-- 页面内容 -->
+    {{ content }}
+  </div>
+
+</body>
+</html>
+<script>
+  document.querySelectorAll('.dropdown').forEach(function (dropdown) {
+    dropdown.querySelector('a').addEventListener('click', function (event) {
+      event.preventDefault();
+      var menu = this.nextElementSibling;
+      menu.classList.toggle('show');
+    });
+  });
+</script>
