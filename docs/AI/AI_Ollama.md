@@ -51,13 +51,6 @@ curl http://localhost:11434/api/chat -d '{
   ]
 }'
 ```
-
-
-<html>
-老牛同学
-Ollama完整教程：本地LLM管理、WebUI对话、Python/Java客户端API应用</html>
-
-
 ```
 Ollama的安装过程，与安装其他普通软件并没有什么两样，安装完成之后，有几个常用的系统环境变量参数建议进行设置：
 
