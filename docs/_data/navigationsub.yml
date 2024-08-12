@@ -10,8 +10,8 @@ main:
         url: "/md/AI/AI_AnythingLLM"
       - title: "02_OpenWebUi"
         url: "/md/AI/AI_openWebUI" 
-      - title: "03_RAG"
-        url: "/md/AI/AI_RAG"
+      - title: "本地测试GraghRag"
+        url: "/md/AI/本地测试GraghRag"
   - title: "Python"
     url: "#"
     sub_menu:
