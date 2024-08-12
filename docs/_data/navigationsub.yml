@@ -24,5 +24,7 @@ main:
         url: "/md/IT/INSTALL_Docker"  
       - title: "安装Jupyter"
         url: "/md/IT/INSTALL_JUPYTER" 
+      - title: "使用Jmeter"
+        url: "/md/IT/Jmeter_" 
   - title: "About"
     url: "/about/"
