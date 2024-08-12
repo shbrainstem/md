@@ -26,10 +26,10 @@ main:
         url: "/md/IT/INSTALL_JUPYTER" 
       - title: "使用Jmeter"
         url: "/md/IT/Jmeter_" 
-      - title: "SpringCloud的配置文件"
-        url: "/md/IT/springCloud_yml" 
   - title: "Java"
     url: "#"
     sub_menu:
       - title: "Idea中Modules依赖关系"
         url: "/md/JAVA/IDE-Idea-Modules_yilai"  
+      - title: "SpringCloud的配置文件"
+        url: "/md/IT/springCloud_yml" 
