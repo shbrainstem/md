@@ -1,18 +1,19 @@
 ##### 一、Ideal的Project下面Modules之间的关系种类
 ###### 1.1.使用Maven
 > 如果你的项目使用Maven作为构建工具，你可以在pom.xml文件中通过<modules>标签来声明子模块，以及通过<dependency>标签来定义模块间的依赖关系。
+
 ###### 1.2.声明子模块
 > 在顶级pom.xml文件中，你可以这样声明子模块
+
 ```
 <project>
-    ...
     <modules>
         <module>sub-module1</module>
         <module>sub-module2</module>
     </modules>
-    ...
 </project>
 ```
+
 ###### 1.3.定义依赖关系
 > 在需要依赖其他模块的pom.xml文件中，你可以添加如下<dependency>标签：
 这里的groupId和artifactId应当匹配目标模块的坐标，而version则通常与顶级pom.xml中的版本一致。
